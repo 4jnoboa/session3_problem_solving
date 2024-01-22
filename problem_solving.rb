@@ -6,11 +6,13 @@
 #puts answer.even?
 
 # challenge 2
-#Update your previous method or function so it accepts an array. The method or function should 
-#return a 
-#boolean that describes whether or not the array's length is an even number.
+#Update your previous method or function so it accepts an array.
+ #The method or function should return a boolean that describes 
+ #whether or not the array's length is an even number.
 
 #name = "jose"
+#answer = name.count "jose"
+#puts answer.even?
 
 #puts name.length
 
@@ -42,10 +44,10 @@ end
 #returns a string of those numbers in the form of a phone number. For example, 
 #if you were given [5, 5, 5, 1, 2, 3, 4, 5, 6, 7], the method or function will return 555-123-4567.
 
-#numbers = [1,2,3\-,4,5,6,7,8,9,4]
-#numbers = [1,2,3,4,5,6,7,8,9,4]
-#phone_number = numbers.join
-#puts phone_number.insert(3, "-",) + puts phone_number.insert(6,"-")
+numbers = [1,2,3,4,5,6,7,8,9,4]
+phone_number = numbers.join
+new_phone = phone_number.insert(3, "-",)
+puts new_phone.insert(7, "-")
 
 # Challenge 5 - OPTIONAL! Super Spicy!
 #Start with the array of strings below. Print all of the words in the array, 
