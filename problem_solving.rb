@@ -2,7 +2,8 @@
 
 # challege 1
 #name = "jose"
-#puts name.count.even? "jose"
+#answer = name.count "jose"
+#puts answer.even?
 
 # challenge 2
 #Update your previous method or function so it accepts an array. The method or function should 
