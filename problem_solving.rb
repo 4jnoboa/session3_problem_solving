@@ -5,6 +5,13 @@
 #answer = name.count "jose"
 #puts answer.even?
 
+#first my thought process was to count the number of charecters in the string
+#i was looking for a method to be able to put a another method on the return output.
+# i couldnt find it, therefor i did the long way, which meant, assigning variables. and getting the 
+#return answer, then assigned the return answer to a new variable
+
+
+
 # challenge 2
 #Update your previous method or function so it accepts an array.
  #The method or function should return a boolean that describes 

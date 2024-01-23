@@ -1,7 +1,16 @@
-numbers = [1,2,3,4,5,6,7,8,9,4]
-phone_number = numbers.join
-new_phone = phone_number.insert(3, "-",)
-puts new_phone.insert(7, "-")
+# challege 1
+#name = "jose"
+#answer = name.length 
+#puts answer.even?
+
+def is_answer_even(word)      # im defining my method  ( word is my parameter)
+     word.length.even?        # i am writing my code block 
+end
+puts is_answer_even("tom")    # i am invoking my method / i am calling my method # "tom is my argument"
+
+
+
+
 
 
 
